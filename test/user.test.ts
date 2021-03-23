@@ -1,6 +1,7 @@
 import assert from 'assert';
 import greet from '../greet';
 import{GreetInEnglish, GreetInXhosa, GreetInZulu} from '../greet.lang'
+import{userCounter} from '../count.greet'
 
 describe('The greet function', function() {
 //     it('should be able to greet a person and return name and surname', function() {
